@@ -233,6 +233,13 @@ label {
     overflow: auto;
 }
 
+.videos {
+    max-width: 48%;
+    margin: 1%;
+    border: 1px solid #dedede;
+    overflow: auto;
+} 
+
 .portfolio-image {
     max-width: 48%;
     float: left;
