@@ -63,6 +63,7 @@ a {
 }
 
 .profile-img {
+    background-color: lightgray;
     border-radius: 50%;
     box-shadow: 0 0 0 0.2rem #fff;
     height: 15rem;
@@ -84,7 +85,32 @@ a {
 }
 
 .header-subtitle {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 600;
+    list-style: none;
+    margin-top: 1.5rem;
+    padding-left: 0;
+}
+
+.header-subtitle li {
+    margin-right: 5rem;
+    position: relative;
+}
+
+.header-subtitle li:not(:first-child):before {
+    background: black;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    display: inline-block;
+    height: 0.6rem;
+    left: -2.8rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    width: 0.6rem;
 }
 
 .section {
