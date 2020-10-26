@@ -3,7 +3,7 @@
 }
 
 html {
-    background-color: #2970b3;
+    background-color: #2870b3;
     font-size: 10px;
 }
 
@@ -193,62 +193,6 @@ footer {
     margin-bottom: 5px;
 }
 
-.cv-nav {
-    border: none;
-    display: none;
-    font-family: Arial, sans-serif;
-    min-height: inherit;
-    top: 60px;
-}
-
-.cv-nav.navbar-inverse,
-.cv-nav .navbar-inverse {
-    background-color: #3B8AD3;
-}
-
-.cv-nav.navbar-inverse .nav>.active>a,
-.cv-nav .navbar-inverse .nav>.active>a {
-    color: #fff;
-    background-color: #2870b3;
-}
-
-.cv-nav.navbar-inverse .nav>li>a,
-.cv-nav .navbar-inverse .nav>li>a {
-    color: #fff;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.contact-me .button-wrapper {
-    text-align: right;
-}
-
-.contact-me .btn {
-    background-color: #3B8AD3;
-    border-color: #2d7dc8;
-    color: #fff;
-    letter-spacing: 1px;
-}
-
-.contact-me .btn .glyphicon-refresh {
-    margin-right: 10px;
-    -webkit-animation: spin 2s infinite linear;
-    animation: spin 2s infinite linear;
-}
-
-#form-success,
-#form-error {
-    display: none;
-}
-
-.spanleft {
-    padding-left: 0;
-}
-
-.spanright {
-    padding-right: 0;
-}
-
 .bullet {
     background-color: #fff;
     border: 1px solid #e9e9e9;
@@ -295,7 +239,7 @@ label {
 }
 
 .contact-link path {
-    fill: #65a3dc
+    fill: #2870b3;
 }
 
 .contact-link a {
@@ -304,26 +248,4 @@ label {
 
 .contact-link a:hover path {
     fill: #3B8AD3;
-}
-
-.item {
-    height: 200px;
-}
-
-.lightgallery {
-    overflow: auto;
-}
-
-.videos {
-    max-width: 48%;
-    margin: 1%;
-    border: 1px solid #dedede;
-    overflow: auto;
-} 
-
-.portfolio-image {
-    max-width: 48%;
-    float: left;
-    margin: 1%;
-    border: 1px solid #dedede;
 }
