@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/Nunito-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-display: swap;
+    src: url('/assets/fonts/Nunito-Bold.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +24,7 @@ html {
 body {
     background-color: #fff;
     color: #333;
-    font-family: "Arial", serif;
+    font-family: 'Nunito';
     font-size: 100%;
     line-height: 1.4;
     margin: 0;
@@ -19,7 +33,7 @@ body {
 }
 
 h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
 }
 
 h2 {
@@ -205,6 +219,7 @@ footer {
 }
 
 .logo {
+    background-color: #fff;
     float: right;
     height: auto;
     margin-left: 20px;
