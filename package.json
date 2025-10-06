@@ -1,0 +1,25 @@
+{
+  "name": "palmieriang-cv",
+  "version": "1.0.0",
+  "description": "Angelo Palmieri's personal website and CV",
+  "main": "index.html",
+  "scripts": {
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\" --ignore-path .prettierignore",
+    "format:check": "prettier --check \"**/*.{html,css,js,json,md}\" --ignore-path .prettierignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palmieriang/palmieriang.github.io.git"
+  },
+  "author": "Angelo Palmieri",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "personal-website",
+    "github-pages"
+  ]
+}

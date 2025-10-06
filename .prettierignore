@@ -1,0 +1,18 @@
+# Ignore files
+node_modules/
+.git/
+dist/
+build/
+*.min.js
+*.min.css
+
+# Ignore specific files
+CNAME
+*.ttf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.ico
+*.webmanifest
